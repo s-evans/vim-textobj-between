@@ -14,8 +14,8 @@ set cpo&vim
 " Interface  "{{{1
 call textobj#user#plugin('between', {
 \      '-': {
-\        'select-a': 'af',  '*select-a-function*': 'textobj#between#select_a',
-\        'select-i': 'if',  '*select-i-function*': 'textobj#between#select_i',
+\        'select-a': 'a/',  '*select-a-function*': 'textobj#between#select_a',
+\        'select-i': 'i/',  '*select-i-function*': 'textobj#between#select_i',
 \      }
 \    })
 
